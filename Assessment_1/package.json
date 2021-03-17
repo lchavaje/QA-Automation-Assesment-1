@@ -1,0 +1,14 @@
+{
+  "name": "testcafe_assesment_1",
+  "version": "1.0.0",
+  "description": "Testcafe assesment 1 for Wizeline QA certification",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/tests",
+    "test-all-safari": "testcafe safari ./page_model/tests",
+    "test-all-firefox": "testcafe firefox ./page_model/tests",
+    "test-all-browsers": "testcafe all ./page_model/tests"
+  },
+  "author": "Liliana Chavaje Avila",
+  "license": "ISC"
+}
